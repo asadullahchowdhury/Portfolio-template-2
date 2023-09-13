@@ -1,0 +1,11 @@
+.main-body {
+    //display: flex;
+
+    .main-content {
+        width: calc(100% - 300px);
+        height: 100vh;
+        background-color: $black-bg;
+        color: $white;
+        float: right;
+    }
+}

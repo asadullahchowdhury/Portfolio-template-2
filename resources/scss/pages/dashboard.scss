@@ -1,0 +1,149 @@
+.homepage {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    //background-position: 50%;
+    background-attachment: fixed;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .3);
+
+        .title {
+            z-index: 41;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-size: 12vh;
+            text-align: center;
+            color: #fff;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            font-weight: 100;
+            letter-spacing: 16px;
+            text-transform: uppercase;
+            margin-top: 0;
+        }
+
+    }
+}
+
+.section-wrapper {
+    width: 100%;
+    padding: 80px 0;
+    position: relative;
+    background-color: $black-bg;
+
+    .inner-container {
+        padding: 0 30px;
+
+        .section-header {
+            position: relative;
+            margin-bottom: 40px;
+            color: #fff;
+
+            .title {
+                letter-spacing: 2px;
+            }
+
+            span {
+                padding-bottom: 20px;
+                display: block;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                position: relative;
+                padding-left: 80px;
+                vertical-align: baseline;
+                color: #999;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 6px;
+                    width: 50px;
+                    height: 1px;
+                    background: #333;
+                }
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    height: 5px;
+                    width: 5px;
+                    background: #333;
+                    top: 4px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .about-desc-content {
+            .title {
+                letter-spacing: 2px;
+                color: $white;
+            }
+
+            p {
+                color: $text;
+            }
+
+            .about-desc-more {
+                .about-desc-info {
+                    padding-bottom: 20px;
+
+                    b {
+                        padding-right: 10px;
+
+                        color: $text;
+                    }
+
+                    span {
+                        color: $text;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//i will fix it later
+.progress {
+    height: 3px !important;
+    background: #dcdcdc;
+
+    .progress-bar {
+        background: #333;
+        opacity: .8;
+    }
+}
+
+.section-skills-wrap {
+
+    .skills-img-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 50%;
+        }
+    }
+}
