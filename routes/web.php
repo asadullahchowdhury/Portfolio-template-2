@@ -13,4 +13,4 @@ use App\Http\Controllers\FrontControler;
 |
 */
 
-Route::get('',[FrontControler::class,'dashboard'])->name('Front.Pages.dashboard');
+Route::get('',[FrontControler::class,'dashboard'])->name('Front.Pages.dashboard.dashboard');

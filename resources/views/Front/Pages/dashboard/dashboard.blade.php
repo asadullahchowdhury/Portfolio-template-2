@@ -181,16 +181,67 @@
                 </span>
                 <h2 class="title">My Services</h2>
             </div>
-            {{--  my skills--}}
+            <!--My skills-->
             <div class="service-section">
                 <div class="row mt-4">
                     <div class="col-lg-4 col-sm-6">
                         <div class="each-service p-4">
-                            <img src="/images/web_design.jpg" alt="service">
+                            <img src="/images/web_design.jpg" alt="service" class="service-img">
+                            <div class="service-list-num">
+                                <span>01</span>
+                            </div>
+                            <div class="service-list-content">
+                                <h5 class="title">Web Design</h5>
+                                <p class="desc mt-3">Designing your product plays an important role for the future of
+                                    the
+                                    product. A user friendly look and futuristic design is loved by all kind of
+                                    users</p>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="each-service p-4">
+                            <img src="/images/web_development.jpg" alt="service" class="service-img">
+                            <div class="service-list-num">
+                                <span>02</span>
+                            </div>
+                            <div class="service-list-content">
+                                <h5 class="title">Web Development</h5>
+                                <p class="desc mt-3">I manage this part based on PHP, Laravel, Bootstrap, Vue.Js,
+                                    Angular, React and all modern web services to build a smooth and upgrade solution
+                                    for an Application.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="each-service p-4">
+                            <img src="/images/mobile-app.jpg" alt="service" class="service-img">
+                            <div class="service-list-num">
+                                <span>03</span>
+                            </div>
+                            <div class="service-list-content">
+                                <h5 class="title">Mobile Application</h5>
+                                <p class="desc mt-3">Our main tools are React native and Flutter to build a native
+                                    Android and iOS application by one writing and both solution formula to manage
+                                    clients time and financial budget.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center mt-5">
+                        <a href="javascript:void(0)" class="btn">View All</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="copyright text-center mb-0">© Rahat Chowdhury 2023 | All Right Reserved</p>
+    </div>
+</footer>
 @endsection

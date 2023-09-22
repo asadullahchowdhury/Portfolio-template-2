@@ -10,6 +10,6 @@ use Illuminate\Routing\Controller as BaseController;
 class FrontControler extends BaseController
 {
    public function dashboard(){
-       return view('Front.Pages.dashboard');
+       return view('Front.Pages.dashboard.dashboard');
    }
 }
