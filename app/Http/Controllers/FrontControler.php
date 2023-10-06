@@ -12,4 +12,9 @@ class FrontControler extends BaseController
    public function dashboard(){
        return view('Front.Pages.dashboard.dashboard');
    }
+
+    public function resume()
+    {
+        return view('Front.Pages.resume.resume');
+    }
 }

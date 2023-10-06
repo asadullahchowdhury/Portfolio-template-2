@@ -11,11 +11,11 @@
     <nav class="navbar">
         <ul class="navbar-list">
             <li class="each-item">
-                <a href="#"><i class="las la-home me-3"></i> Home</a>
+                <a href="{{asset(route('home'))}}"><i class="las la-home me-3"></i> Home</a>
             </li>
 
             <li class="each-item">
-                <a href="#"><i class="las la-award me-3"></i> Resume</a>
+                <a href="{{asset(route('resume'))}}"><i class="las la-award me-3"></i> Resume</a>
             </li>
 
             <li class="each-item">
